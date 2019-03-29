@@ -10,6 +10,12 @@ namespace Mic_Volo.HelloWord
     {
         static void Main(string[] args)
         {
+            string val = "Hello";
+            Print(val);
+        }
+        public static void Print(string val)
+        {
+            Console.WriteLine(val);
         }
     }
 }
