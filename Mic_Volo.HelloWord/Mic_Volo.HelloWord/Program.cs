@@ -12,6 +12,7 @@ namespace Mic_Volo.HelloWord
         {
             string val = "Hello";
             Print(val);
+            int a = 60;
         }
         public static void Print(string val)
         {
