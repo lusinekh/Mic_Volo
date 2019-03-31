@@ -14,7 +14,7 @@ namespace FibonacciSequrenc
         {
             IEnumerable<BigInteger> sequence = Fibonacci();
 
-            foreach (var item in sequence.Skip(0).Take(1))            {
+            foreach (var item in sequence.Skip(0).Take(0))            {
 
                 Console.WriteLine(item);
 
@@ -27,12 +27,12 @@ namespace FibonacciSequrenc
             BigInteger frste =new BigInteger(0);
             BigInteger last = new BigInteger(1);
             BigInteger res = new BigInteger(0);
+
             yield return frste;
             yield return last;
-
-            while (true)
+           for (int i=0;i<40;i++)
             {
-              
+                
                 res = frste + last;
                 frste = last;
                 last  =  res;
