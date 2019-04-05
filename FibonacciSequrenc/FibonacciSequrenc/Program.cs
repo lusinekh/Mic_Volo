@@ -30,9 +30,8 @@ namespace FibonacciSequrenc
 
             yield return frste;
             yield return last;
-           for (int i=0;i<40;i++)
-            {
-                
+            while(true)
+            {                
                 res = frste + last;
                 frste = last;
                 last  =  res;
