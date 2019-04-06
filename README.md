@@ -57,7 +57,7 @@ Established the fibonacci function that returns the IEnumerable interface and it
             .
             string result = String.Empty;
             int i = 0;
-           while (i < str.Length)
+            while (i < str.Length)
             {
                 if (str[i] == 't' && str[i + 1] == 'h')
                 {
@@ -73,7 +73,7 @@ Established the fibonacci function that returns the IEnumerable interface and it
                 }
                 result += dictionary[str[i].ToString()];
                 i++;
-            }
+             }
                
                
 
