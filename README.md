@@ -28,8 +28,7 @@ Established the fibonacci function that returns the IEnumerable interface and it
            yield return frste;
            yield return last;
            while(true)
-            {
-                
+            {           
                 res = frste + last;
                 frste = last;
                 last  =  res;
