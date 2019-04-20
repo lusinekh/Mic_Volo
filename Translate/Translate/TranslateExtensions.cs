@@ -8,11 +8,8 @@ namespace Translate
 {
     public static class TranslateExtensions
     {
-
         public static string ToArenian(this string str)
         {
-
-
             str = str.ToLower();
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
             dictionary.Add("a", "ա");
@@ -125,14 +122,10 @@ namespace Translate
                     continue;
 
                 }
-
                 result += dictionary[str[i].ToString()];
                 i++;
             }
             return result;
-
         }
-
-
     }
 }

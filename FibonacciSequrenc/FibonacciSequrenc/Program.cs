@@ -18,7 +18,6 @@ namespace FibonacciSequrenc
                 Console.WriteLine(item);
             }
         }
-
         public static IEnumerable<BigInteger> Fibonacci()
         {
             BigInteger frste = new BigInteger(0);
@@ -33,7 +32,6 @@ namespace FibonacciSequrenc
                 frste = last;
                 last = res;
                 yield return res;
-
             }
         }
     }
